@@ -1,0 +1,225 @@
+/*=========================
+       Common Css
+=========================*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #2b2b2b;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, a{
+    font-family: 'Redressed', cursive;
+}
+img{
+    width: 100%;
+}
+video{
+    width: 100%;
+}
+
+.headding{
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.headding h2{
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+/*=========================
+      Header section
+=========================*/
+
+.logo-area{
+    padding: 10px 0px;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    margin: auto;
+}
+.manu-area{
+   background: #000;
+   text-transform: capitalize;
+    padding: 10px 0px;
+    font-size: 16px;
+    width: 100%;
+}
+.nav{
+    justify-content: center;
+    
+}
+.nav li a{
+    color: #fff;
+}
+.navbar{
+    padding: 0;
+    justify-content: center;
+}
+.nav-btn{
+    color: #fff;
+}
+.navbar-toggler:focus{
+    outline: 0;
+}
+.fixed .manu-area{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 0;
+    z-index: 999;
+}
+.banner-area{
+    background: #000;
+}
+
+/*=========================
+      Photo section
+=========================*/
+.photo-section{
+    padding: 60px 0px;
+}
+.photo-content{
+    text-align: center;
+    padding: 25px 20px;
+    background: #000;
+    margin-bottom: 25px;
+}
+.photo-content i{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.photo-content h4{
+    font-size: 26px;
+}
+/*=========================
+      Service section
+=========================*/
+.services-section{
+    padding: 60px 0px;
+}
+.service-content{
+    text-align: justify;
+    margin-bottom: 60px;
+}
+
+/*=========================
+      Gallery section
+=========================*/
+.gallery-section{
+    background: #000;
+    padding: 60px 0px;
+}
+.gallery-manu .nav li{
+    padding: 5px 20px;
+    background: #fff;
+    color: #000;
+    font-weight: 600;
+    margin:0px 10px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.our-gallery{
+    margin-bottom: 20px;
+}
+
+/*=========================
+      Gallery section
+=========================*/
+.about-section{
+    padding: 60px 0px;
+}
+.about-content{
+   margin-top: 15px;
+    
+}
+.comtainer1{
+    max-width: 600px;
+    margin: auto;
+}
+.about-img img{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+/*=========================
+      Clint section
+=========================*/
+.clint-section{
+    padding: 80px 0px;
+    background-image: url(../img/back.jpg);
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.clint-section h1{
+    text-align: center;
+}
+
+/*=========================
+      Contact section
+=========================*/
+.contact-section{
+    padding: 60px 0px;
+}
+.contact-area{
+    text-align: center;
+}
+.contact-area i{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+/*=========================
+      Footer section
+=========================*/
+.footer-section{
+    background: #000;
+    padding: 30px 0px;
+}
+.nav li a{
+    padding: 20px;
+}
+
+.footer-section .nav li a i:hover{
+   transform:rotate(360deg);
+    transition: .5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,46 @@
+/*=============================================================
+  Use a media query to add a breakpoint min300px amd max600px
+==============================================================*/
+@media only screen and (min-width: 300px) and (max-width: 600px){
+    body{
+        font-size: 12px;
+    }
+    .manu-area .nav{
+        display: block;
+        
+    }
+    .manu-area .nav li a{
+        text-align: center;
+    }
+    .headding{
+        max-width: 300px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    
+    .headding h2{
+        font-size: 24px;
+    }
+    .photo-section{
+        padding: 0;
+    }
+    .services-section{
+        padding: 0;
+    }
+    .gallery-section{
+        padding: 0;
+    }
+    .about-section{
+        padding: 0;
+    }
+    .comtainer1{
+        max-width: 300px;
+    }
+    .about-img img{
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+        margin-top: 30px;
+    }
+    
+}
